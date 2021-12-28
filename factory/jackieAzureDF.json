@@ -1,9 +1,0 @@
-{
-	"name": "jackieAzureDF",
-	"location": "australiaeast",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "c782e6a4-afb9-49b1-a3d2-9326f31f3132",
-		"tenantId": "a1b03033-8a3d-4443-a90b-0f3298ffbf90"
-	}
-}
