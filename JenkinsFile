@@ -4,6 +4,13 @@ pipeline{
     stage ('GIT initialize') {
         steps{
             echo "init......."
+            script{
+                sh """
+                    source ss.sh
+                    """
+            }
+
+
         }
     }
     stage ('Build') {
